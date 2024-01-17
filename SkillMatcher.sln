@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.34221.32
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillMatcher", "SkillMatcher\SkillMatcher.csproj", "{A7D5645C-52B0-4308-80BB-104D37F8408B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkillTests", "SkillTests\SkillTests.csproj", "{ACFFAE00-FEE9-48E9-81AC-045AFC9F0D02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7D5645C-52B0-4308-80BB-104D37F8408B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D5645C-52B0-4308-80BB-104D37F8408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D5645C-52B0-4308-80BB-104D37F8408B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D5645C-52B0-4308-80BB-104D37F8408B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACFFAE00-FEE9-48E9-81AC-045AFC9F0D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFFAE00-FEE9-48E9-81AC-045AFC9F0D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFFAE00-FEE9-48E9-81AC-045AFC9F0D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFFAE00-FEE9-48E9-81AC-045AFC9F0D02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79891799-229B-4637-A0EA-1BB694020514}
+	EndGlobalSection
+EndGlobal
