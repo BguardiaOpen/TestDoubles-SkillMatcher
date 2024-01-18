@@ -9,11 +9,9 @@ namespace SkillTests
         List<ISkill> IJob.MandatorySkills {
             get
             {
-                List<ISkill> skills= new List<ISkill>();
-                TestSkill test1 = new TestSkill("C#", 5);
-                TestSkill test2 = new TestSkill("XUnit", 3);
-                skills.Add(test1);
-                skills.Add(test2);
+                List<ISkill> skills = new List<ISkill>{
+                    new TestSkill("C#", 3)
+                };
                 return skills;
             }
             

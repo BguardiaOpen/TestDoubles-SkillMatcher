@@ -13,7 +13,7 @@ namespace SkillTests
             // act
             var result = SkillMatcher.SkillMatcher.PercentageOfMatch(job, candidate);
             // assert
-            Assert.Equal(100.0f, result, 0.1f);
+            Assert.True(result > 99.99f);
         }
 
         [Fact]

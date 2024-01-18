@@ -31,7 +31,8 @@ namespace SkillTests
             get {
                 List<ISkill> result = new List<ISkill>
                 {
-                    new TestSkill("C#", 3)
+                    new TestSkill("C#", 5),
+                    new TestSkill("XUnit", 3)
                 };
                 return result;
             }

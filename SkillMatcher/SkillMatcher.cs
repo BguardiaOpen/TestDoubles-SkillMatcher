@@ -18,7 +18,7 @@
                     }
                 }
             }
-            if (skillsCount > 0) { return percentageSum / skillsCount; }
+            if (skillsCount > 0) { return 100.0f * percentageSum / skillsCount; }
             return 0.0f;
         }
 
