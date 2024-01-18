@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SkillMatcher
+﻿namespace SkillMatcher
 {
+    /// <summary>
+    /// A Candidate represent a person available in the job market, defined by their name 
+    /// experience, education and qualifications (represented as skills)
+    /// </summary>
+
     public interface ICandidate
     {
         string Name { get; set;  }

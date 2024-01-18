@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SkillMatcher
+﻿namespace SkillMatcher
 {
+    /// <summary>
+    /// Skills are desired knowledge attributes, identified by its common name and years of experience
+    /// </summary>
     public interface ISkill
     {
         public string Name { get; set; }
